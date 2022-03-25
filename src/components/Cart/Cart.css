@@ -18,3 +18,15 @@
     background-color: #7507f370;
     border-radius: 20px;
 }
+.choose-button{
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    background:black;
+    padding: 10px 30px;
+}
+
+.choose-button:hover:hover{
+    background-color: rgb(30, 8, 228);
+
+}
