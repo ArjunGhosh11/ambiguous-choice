@@ -1,0 +1,56 @@
+[
+    {
+        "id": "a1",
+        "img": "https://i.ibb.co/BLPSkz6/apple-iphone-13-pro-max.jpg",
+        "price": 1400,
+        "name": "iphone 13 Pro Max"
+    },
+    {
+        "id": "b2",
+        "img": "https://i.ibb.co/pb0WwhQ/Asus-Vivo-Book.jpg",
+        "price": 1000,
+        "name": "Asus VivoBook s15"
+    },
+    {
+        "id": "c3",
+        "img": "https://i.ibb.co/M9mZTZ9/One-Plus-Buds.jpg",
+        "price": 100,
+        "name": "OnePlus Buds Z2"
+    },
+    {
+        "id": "d4",
+        "img": "https://i.ibb.co/BNPsJJT/oneplus-10-pro.jpg",
+        "price": 1100,
+        "name": "OnePlus 10 Pro"
+    },
+    {
+        "id": "e5",
+        "img": "https://i.ibb.co/Jz9ZhLb/Airpods-Pro.jpg",
+        "price": 170,
+        "name": "Airpods Pro"
+    },
+    {
+        "id": "f6",
+        "img": "https://i.ibb.co/z2hmJ46/Powerbeats-Pro.jpg",
+        "price": 179,
+        "name": "Powerbeats Pro"
+    },
+    {
+        "id": "g7",
+        "img": "https://i.ibb.co/Dz396bR/BoseBass.png",
+        "price": 449,
+        "name": "Bose Bass Module 500"
+    },
+    {
+        "id": "h8",
+        "img": "https://i.ibb.co/BnnbM6f/lg-Television.jpg",
+        "price": 1799,
+        "name": "LG QNED MiniLED 90 Series"
+    },
+    {
+        "id": "i9",
+        "img": "https://i.ibb.co/V2JQ137/Apple-Studio-Display.jpg",
+        "price": 1899,
+        "name": "Apple Studio Display"
+    }
+]
