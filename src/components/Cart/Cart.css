@@ -1,0 +1,20 @@
+.cart img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart{
+    position: sticky;
+    top: 22%;
+    padding: 30px 20px;
+    background-color: #7507f370;
+    border-radius: 20px;
+}

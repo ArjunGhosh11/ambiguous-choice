@@ -36,7 +36,9 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <Cart cart={cart} products={products}></Cart>
+            <div className='cart-container'>
+                <Cart cart={cart} products={products}></Cart>
+            </div>
         </div >
     );
 };
