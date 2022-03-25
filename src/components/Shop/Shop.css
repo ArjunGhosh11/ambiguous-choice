@@ -7,6 +7,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 45px;
     margin: 100px,50px;
+    padding: 40px;
 }
 .cart-container{
     background-color: rgba(255, 153, 0, 0.3);
@@ -14,5 +15,8 @@
 @media screen and (max-width:576px) {
     .products-container{
         grid-template-columns: 1fr;
+    }
+    .shop-container{
+        grid-template-columns: 1fr 1fr;
     }
 }
