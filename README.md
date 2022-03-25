@@ -1,4 +1,3 @@
-# AMBIGUOUS-CHOICE-
 # AMBIGUOUS-CHOICE
 
 ##[Private Repo Link](https://github.com/Programming-Hero-Web-Course4/lucky-one-ArjunGhosh11#readme)
