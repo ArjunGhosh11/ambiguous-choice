@@ -12,7 +12,6 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (selectedProduct) => {
-        console.log(selectedProduct);
         let newCart = [];
         if (!(cart.includes(selectedProduct))) {
             newCart = [...cart, selectedProduct];

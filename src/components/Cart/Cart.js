@@ -1,29 +1,20 @@
 import React, { useState } from 'react';
 import './Cart.css'
 const Cart = (props) => {
-
     const { cart, deleteItems } = props;
-
-    console.log('Cart:', cart);
     const [selectedItem, setSelectedItem] = useState({});
     const [className, setClassName] = useState('selected-item-empty');
     const chooseItem = () => {
-        if (cart.length == 0) {
+        if (cart.length === 0) {
             alert('PLEASE SELECT ITEMS!!');
         }
         else {
             const len = cart.length;
-            console.log(len);
             const randomIndex = (Math.floor(Math.random() * len));
-            console.log(randomIndex);
             setSelectedItem(cart[randomIndex]);
-            console.log("selected:", selectedItem);
             setClassName('selected-item');
         }
     }
-
-
-
     return (
         <div className='cart'>
             <h2>Selected Items: {cart.length}</h2>
