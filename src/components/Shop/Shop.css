@@ -9,9 +9,6 @@
     margin: 100px,50px;
     padding: 40px;
 }
-/* .cart-container{
-   
-} */
 @media screen and (max-width:576px) {
     .products-container{
         grid-template-columns: 1fr;
