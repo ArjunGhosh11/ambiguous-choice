@@ -13,12 +13,13 @@
 
 .cart{
     position: sticky;
-    top: 22%;
+    top: 28%;
     padding: 30px 20px;
     background-color: #7507f370;
     border-radius: 20px;
 }
 .choose-button{
+    width: 180px;
     border-radius: 10px;
     color: aliceblue;
     font-weight: 700;
@@ -29,4 +30,27 @@
 .choose-button:hover:hover{
     background-color: rgb(30, 8, 228);
 
+}
+.delete-button{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    background:orangered;
+    padding: 10px 30px;
+    width:180px;
+}
+
+.delete-button:hover:hover{
+    background-color: rgb(245, 7, 7);
+
+}
+
+.selected-item-empty{
+    display: none;
+}
+.selected-item{
+    display: block;
+    display: flex;
+    flex-direction: column;
 }

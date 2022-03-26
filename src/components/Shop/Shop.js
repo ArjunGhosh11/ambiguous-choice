@@ -20,9 +20,11 @@ const Shop = () => {
         else {
             newCart = [...cart];
         }
-        console.log(newCart);
         setCart(newCart);
-        console.log(cart);
+    }
+
+    const deleteItems = () => {
+        setCart([]);
     }
 
     return (
@@ -37,7 +39,7 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <Cart cart={cart} products={products}></Cart>
+                <Cart cart={cart} deleteItems={deleteItems}></Cart>
             </div>
         </div >
     );
