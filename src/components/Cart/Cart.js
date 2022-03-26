@@ -25,7 +25,7 @@ const Cart = (props) => {
             <button className='choose-button' onClick={chooseItem}>CHOOSE AN ITEM</button>
             <div className={className}>
                 <h5>YOU SHOULD TAKE:</h5>
-                <div className='list-item'><img src={selectedItem.img} alt="" /> <h5> {selectedItem.name}</h5></div>
+                <div className='list-item-info'><img src={selectedItem.img} alt="" /> <h5> {selectedItem.name}</h5></div>
             </div>
             <button className='delete-button' onClick={deleteItems}>SELECT AGAIN</button>
         </div>

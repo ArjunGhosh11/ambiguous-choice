@@ -3,7 +3,9 @@
     height: 18px;
     margin-right: 10px;
     border: 1px solid gray;
-    border-radius: 7px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aliceblue;
 }
 .list-item{
     justify-content: space-between;
